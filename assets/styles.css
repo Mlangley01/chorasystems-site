@@ -228,9 +228,9 @@ h2 {
     gap: 48px;
   }
 
-  .nav-links {
+  #.nav-links {
     display: none;
-  }
+  }#
 
   section {
     padding: 60px 0;
