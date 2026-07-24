@@ -221,12 +221,30 @@ h2 {
   gap: 64px;
   align-items: start;
 }
-
 @media (max-width: 768px) {
+  .nav-links {
+    gap: 16px;
+    font-size: 0.85rem;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .hero {
+    padding: 120px 0 70px;
+  }
+
   .two-col {
     grid-template-columns: 1fr;
     gap: 48px;
   }
+}
+#@media (max-width: 768px) {
+  .two-col {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }#
 
   #.nav-links {
     display: none;
